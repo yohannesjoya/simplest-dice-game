@@ -1,0 +1,41 @@
+body{
+    background-color: #232323;
+}
+.winner-wraper{
+    color: white;
+    width: fit-content;
+    margin: 50px auto;
+    font-size: 50px;
+}
+
+
+.dices{
+    display: flex;
+    gap: 2rem;
+justify-content: center;
+}
+
+.dices>div {
+    width: 350px;
+    height: 350px;
+    border: 2px white solid;
+    color: white;
+    text-align: center;
+}
+.middle{
+    width: 140px !important;
+    height: 140px !important;
+    align-self: center;
+    font-size: 120px;
+    font-weight: bolder;
+}
+
+.Win-lose{
+    width: 70%;
+    height: 80px;
+    border: 2px solid white;
+    text-align: center;
+    margin: 25px auto;
+    color: aliceblue;
+    font-weight: bolder;
+}
